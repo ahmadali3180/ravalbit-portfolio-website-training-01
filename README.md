@@ -1,8 +1,22 @@
-# React + Vite
+# Ravalbit Training Class - 01
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Portfolio Website in React
 
-Currently, two official plugins are available:
+### This Tutorial Covers:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. How to use Vite for React projects.
+2. How to create and use your own custom animations.
+3. React Hooks.
+4. Responsive Website.
+5. Using EmailJS.
+6. Deploy the app to a hosting platform, or development platforms like Vercel.
+
+
+
+
+
+
+
+
+
+
