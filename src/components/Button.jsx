@@ -4,10 +4,10 @@ const Button = ({ title, type, buttonType, href, onClick, id }) => {
   let className = "";
   if (type === "primary") {
     className =
-      "px-6 py-2 text-center font-semibold rounded-full text-text-primary shadow-black shadow-md hover:shadow-none duration-300 bg-primary";
+      "xxs:px-4 xs:px-6 py-2 text-center font-semibold rounded-full text-text-primary shadow-black shadow-md hover:shadow-none duration-300 bg-primary";
   } else {
     className =
-      "px-6 py-2 text-center font-semibold bg-secondary rounded-full text-text-primary shadow-md shadow-primary hover:shadow-none duration-300";
+      "xxs:px-4 xs:px-6 py-2 text-center font-semibold bg-secondary rounded-full text-text-primary shadow-md shadow-primary hover:shadow-none duration-300";
   }
 
   return (

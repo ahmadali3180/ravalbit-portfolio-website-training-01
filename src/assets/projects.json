@@ -1,0 +1,23 @@
+[
+  {
+    "id": "1",
+    "name": "3D T-Shirt Design",
+    "image": "/mp1.png",
+    "technologies": ["#React", "#MongoDB", "#ThreeJs", "#Express"],
+    "url": "https://customtees.vercel.app"
+  },
+  {
+    "id": "2",
+    "name": "Arooj Sports",
+    "image": "/mp2.png",
+    "technologies": ["#React", "#MongoDB"],
+    "url": "https://aroojsports.com"
+  },
+  {
+    "id": "3",
+    "name": "Narafashions",
+    "image": "/mp3.png",
+    "technologies": ["#React", "#MongoDB", "#Express"],
+    "url": "https://narafashions.vercel.app"
+  }
+]
