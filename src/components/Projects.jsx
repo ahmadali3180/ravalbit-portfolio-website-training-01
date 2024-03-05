@@ -13,7 +13,7 @@ const Projects = () => {
   return (
     <section
       className="flex justify-between xl:justify-around mt-16 xs:px-16 xxs:px-8 md:px-24 xxs:py-24 bg-projects-texture 2xl:bg-none"
-      id="ptojects"
+      id="projects"
     >
       <div className="flex flex-col gap-6 w-full">
         <div>

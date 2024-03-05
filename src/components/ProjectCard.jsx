@@ -3,7 +3,7 @@ import React from "react";
 const ProjectCard = ({ data }) => {
   console.log(data);
   const { name, technologies, url, image } = data;
-
+  const a = "string";
   return (
     <div className="backdrop-filter backdrop-blur-sm bg-opacity-30 rounded-xl bg-gray-600 px-3 py-6 h-[340px] w-[280px]">
       <a
@@ -16,9 +16,9 @@ const ProjectCard = ({ data }) => {
       <img src={image} alt="project-image" className="w-full h-auto" />
       <div className="flex flex-col gap-4 mt-4 px-2">
         <p className="text-text-primary font-medium text-lg">{name}</p>
-        <div className="bg-gradient-to-r from-violet-500 via-blue-400 to-emerald-400 flex flex-col absolute top-56 text-transparent bg-clip-text">
+        <div className="bg-gradient-to-r from-violet-500 via-blue-400 to-emerald-400 grid grid-cols-2 absolute text-transparent bg-clip-text text-sm bottom-0 pb-4">
           {technologies.map((tech) => {
-            return <p>{tech}</p>;
+            return <p key={tech.toUpperCase()}>{tech}</p>;
           })}
         </div>
       </div>

@@ -13,7 +13,7 @@ const Hero = () => {
   return (
     <AnimatePresence>
       <motion.section
-        className="flex justify-between xl:justify-around xl:py-24 xl:px-32 sm:px-24 sm:py-20 mt-8 xs:px-16 xxs:px-8 xxs:pb-60"
+        className="flex justify-between xl:justify-around xl:py-24 xl:px-32 sm:px-24 sm:py-20 mt-8 xs:px-16 xxs:px-8 xxs:pb-60 xxs:flex-col md:flex-row"
         id="home"
       >
         <motion.div className="flex flex-col gap-8 mt-12">
@@ -57,7 +57,7 @@ const Hero = () => {
           </a>
         </motion.div>
         <motion.div
-          className="mt-8 xl:scale-125 xl:mr-10 -mr-10 xxs:hidden sm:block sm:scale-90 md:scale-100 lg:pr-16"
+          className="mt-8 xl:scale-125 xl:mr-10 -mr-10 sm:scale-90 md:scale-100 lg:pr-16 xxs:mx-auto md:mx-0"
           {...slideAnimation("right")}
         >
           <img src="/hero-img-bg.png" alt="" className="" />
